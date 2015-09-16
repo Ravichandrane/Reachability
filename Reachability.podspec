@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => 'BSD', :text => license }
 
-  s.source       = { :git => 'https://github.com/ustwo/Reachability.git', :branch => "reachability_collision" }
+  s.source       = { :git => 'https://github.com/ustwo/Reachability.git', :branch => "reachability_collision", :tag => "{s.version}" }
   s.source_files = 'USTReachability.{h,m}'
   s.framework    = 'SystemConfiguration'
 
